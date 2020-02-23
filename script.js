@@ -85,3 +85,4 @@ let applyOp = (event) => {
 let opButtons = document.querySelectorAll(".operator");
 Array.from(opButtons).forEach(opButton => opButton.addEventListener("click", applyOp));
 
+// Please leave commits on my github!
