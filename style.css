@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    background: #333;
+    width: 220px;
+    padding: 10px;
+}
+
+.screen {
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.screen input {
+    font-size: 18px;
+    width: 100%;
+    display: block;
+    text-align: right;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.buttons button {
+    display: block;
+    width: 45px;
+    height: 45px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.buttons button.operator {
+    background-color: orange;
+    color: white;
+}
